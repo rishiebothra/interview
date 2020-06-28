@@ -1,0 +1,26 @@
+{
+    "flow_direction":             x,
+    "imax":                                 100,
+    "jmax":                                 100,
+    "kmax":                                 100,
+    "tmax":                                 30000
+    "viscosity":                            0.16,
+    "relaxation_time":                      0.98,
+    "pressure_BC":                off,
+    "inlet_density"                         1.0001,
+    "outlet_density"                        0.9999,    
+    "external_force":         0.000006574
+    "pressure_gradient_x":    0.00000,
+    "pressure_gradient_y":    0.00000,
+    "pressure_gradient_z":    0.00000,
+    "convergence_tolerance":                1.0e-1,
+    "is_x_periodic":              on,
+    "is_y_periodic":              off,
+    "is_z_periodic":              off,
+    "pixel_resolution(meter)":              4.956e-6,
+    "collision_model":            MRT,
+    "input_data_format":                    Binary_only,
+    "input_file_name":                      input-image.dat,
+    "output_file_name":                     Perm_LBM.json,
+    "output_velocity_fields":               off
+}
