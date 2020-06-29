@@ -1,14 +1,14 @@
 {
-    "flow_direction":             x,
+    "flow_direction":             y,
     "imax":                                 100,
     "jmax":                                 100,
     "kmax":                                 100,
     "tmax":                                 30000
-    "viscosity":                            0.16,
-    "relaxation_time":                      0.98,
+    "viscosity":                            0.96,
+    "relaxation_time":                      3.98,
     "pressure_BC":                off,
     "inlet_density"                         1.0001,
-    "outlet_density"                        0.9999,    
+    "outlet_density"                        0.5000,    
     "external_force":         0.000001574
     "pressure_gradient_x":    0.00000,
     "pressure_gradient_y":    0.00000,
