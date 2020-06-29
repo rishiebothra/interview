@@ -4,7 +4,7 @@
     "jmax":                                 100,
     "kmax":                                 100,
     "tmax":                                 30000
-    "viscosity":                            0.16,
+    "viscosity":                            0.96,
     "relaxation_time":                      0.98,
     "pressure_BC":                off,
     "inlet_density"                         1.0001,
